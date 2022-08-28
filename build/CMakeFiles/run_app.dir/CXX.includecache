@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jovyan/2270/homework/BTree/app/main.cpp
+iostream
+-
+../code/BTree.h
+/home/jovyan/2270/homework/BTree/code/BTree.h
+../tests/BTreeTestHelp.h
+/home/jovyan/2270/homework/BTree/tests/BTreeTestHelp.h
+
+/home/jovyan/2270/homework/BTree/code/BTree.cpp
+BTree.h
+/home/jovyan/2270/homework/BTree/code/BTree.h
+iostream
+-
+
+/home/jovyan/2270/homework/BTree/code/BTree.h
+string
+-
+memory
+-
+vector
+-
+
+/home/jovyan/2270/homework/BTree/tests/BTreeTestHelp.h
+../code/BTree.h
+/home/jovyan/2270/homework/BTree/code/BTree.h
+vector
+-
+
